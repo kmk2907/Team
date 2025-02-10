@@ -31,7 +31,7 @@ resource "aws_security_group" "nginx_sg" {
 
 # EC2 인스턴스 생성 (t2.micro)
 resource "aws_instance" "test-web" {
-  ami           = "ami-0e38b48473ea57778" # Amazon Linux 2 AMI (서울 리전)
+  ami           = "넣고싶은 이미지" # Amazon Linux 2 AMI (서울 리전)
   instance_type = "t2.micro"
   key_name      = "soldesk_Key"           # 사용자의 키페어
 
